@@ -1,5 +1,4 @@
-/* eslint-disable no-undef */
-// import '..styles/styles.scss';
+
 import '../styles/styles.scss';
 import button from './components/buttonevent';
 
@@ -10,5 +9,6 @@ const init = () => {
   button.xmenButton();
   button.guardiansButton();
   button.avengersButton();
+  button.imageHide();
 };
 init();

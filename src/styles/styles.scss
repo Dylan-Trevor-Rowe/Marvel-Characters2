@@ -1,19 +1,14 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
-// img {
-//   display: block;
-//   margin: 0 auto;
-// }
-
-// body.marvel-Logo {
-// visibility: hidden;
-
-// }
 
 .logonav {
 width: 8rem;
 }
+h1 {
+    display: flex;
+    justify-content: center;
+ }
 
 button {
  width: 80px; 
@@ -21,3 +16,15 @@ button {
  margin: 10px;
  background-color: blue;
 }
+
+body {
+background-color: grey;
+}
+
+.hidden {
+    margin-left: 600px;
+    }
+    #otherImage {
+     visibility: hidden;
+    }
+

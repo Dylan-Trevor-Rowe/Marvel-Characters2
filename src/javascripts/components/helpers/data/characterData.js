@@ -1,4 +1,8 @@
-/*eslint-disable */ 
+/*eslint-disable */
+import gender from "./gender";
+
+ 
+
 const characters = [
   {
     id: "character1",
@@ -166,7 +170,8 @@ const characters = [
     imageUrl:
       "https://i.annihil.us/u/prod/marvel/i/mg/5/a0/537bc7036ab02/standard_xlarge.jpg"
   }
-];
+]
+
 
 const getCharacters = () => characters;
 export default  { getCharacters };
