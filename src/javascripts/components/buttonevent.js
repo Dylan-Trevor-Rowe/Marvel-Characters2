@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-vars */
+
 import character from "./helpers/data/characterData";
 import characterList from "./characterlist/characterList";
 
