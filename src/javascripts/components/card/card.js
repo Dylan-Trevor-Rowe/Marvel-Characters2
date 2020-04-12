@@ -1,28 +1,34 @@
+/* eslint-disable no-param-reassign */
+/* eslint-disable prefer-const */
+/* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
 /* eslint-disable no-plusplus */
 import print from "../helpers/utils";
 import "./card.scss";
 // eslint-disable-next-line no-unused-vars
-import getCharacters from "../helpers/data/characterData";
+import characterData from "../helpers/data/characterData";
+
 
 const buildCharacterCard = (character) => {
-  const genderClass = character.genderId === 'gender0' ? 'girl' : 'boy';
-  let domstring = "";
-  domstring += `<div class="${genderClass}" id="card" style="width: 18rem;">
-  <img src="${character.imageUrl}" class="card-img-top" alt="...">
-  <div id="card-body" class="${genderClass}">
-    <h5 class="card-title"> ${character.name}</h5>
-    <p class="card-text">${character.description}</p>
-  </div>
-</div>`;
-  print.printToDom("card", domstring);
+  if (character.description === "" && character.teamId === 'team0' && character.genderId === 'gender0') {
+    character.description = '1234567890 1234567890 1234567890 1234567890 1234567890 1234567890 1234567890 1234567890 1234567890 1234567890 1234567890 1234567890  ';
+  } else if (character.genderId === "gender1" && character.teamId === 'team0' && character.description === '') {
+    character.description = 'abcde fghij klmno pqrst uvwxy z abcde fghij klmno pqrst uvwxy z abcde fghij klmno pqrst uvwxy z abcde fghij klmno pqrst uvwxy z';
+  }
 
-  // const genders = getCharacters.filter(() => 'gender1');
-  // if (genders.genderId === 'gender1') {
-  //   document.getElementsByClassName('boy');
-  // } else {
-  //   document.getElementsByClassName('girl');
-  // }
+  const gender = character.genderId === 'gender0' ? 'girl' : 'boy';
+  let domstring = '';
+  domstring += `<div class="card" style="width: 18rem;">
+  <div class= "namediv">
+  <h5> ${character.name}</h5>
+  <img src="${character.imageUrl}" class="${gender} card-img-top" alt="...">
+  <div>
+    <p class="text">${character.description}</p>
+      </div>
+    </div>
+  </div>`;
+
+  print.printToDom("card", domstring);
 };
 
 

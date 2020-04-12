@@ -1,6 +1,7 @@
+/* eslint-disable no-unused-vars */
 import character from "./helpers/data/characterData";
 import characterList from "./characterlist/characterList";
-// functions to filter data by the id and print on the correct cards by button click
+
 const xmenButton = () => {
   document.getElementById("x-Menbtn").addEventListener("click", () => {
     document.getElementById("card").innerHTML = "";
@@ -34,4 +35,14 @@ const avengersButton = () => {
   });
 };
 
-export default { xmenButton, guardiansButton, avengersButton };
+const imageHide = () => {
+  $("button").click(() => {
+    $('#otherimage').hide();
+  });
+};
+export default {
+  xmenButton,
+  guardiansButton,
+  avengersButton,
+  imageHide,
+};

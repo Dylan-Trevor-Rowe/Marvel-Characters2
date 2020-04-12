@@ -1,27 +1,36 @@
-#card  {
-display: flex;
-flex-direction: row;
-justify-content: center;
-flex-wrap: wrap;
-margin: 20px;
-max-height: fit-content;
-max-width: fit-content;
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: inherit;
+  margin: 30px;
+  background-color: #504a4a;
+  border: white solid 2px;
+}
+.card-img-top {
+  border-radius: 50%;
+  margin: 5px;
+  max-height: 250px;
+  max-width: 275px;
 }
 
-// #card-body {
-//     background-color: blue;
-// }
+p {
+  color: #e23636;
+  text-align: center;
+}
 
-// card-body.toggle {
-// background-color: deeppink;
-// }
-.boy {
-  background-color: blue;  
+h5 {
+  background-color: #f78f3f;
+  text-align: center;
+  margin: auto;
+}
+
+img.boy {
+  border: solid #518cca 5px;
 }
 .girl {
-    background-color: deeppink;
+  border: solid pink 5px;
 }
-
-
-
- 
