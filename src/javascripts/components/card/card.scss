@@ -1,42 +1,36 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
-.card  {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-flex-grow: inherit;
-margin: 30px;
-background-color: #504a4a;
-border: white solid 2px;
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: inherit;
+  margin: 30px;
+  background-color: #504a4a;
+  border: white solid 2px;
 }
 .card-img-top {
-    border-radius: 50%;    
-    margin: 5px;
-    max-height: 250px;
-    max-width: 275px;
-    }
+  border-radius: 50%;
+  margin: 5px;
+  max-height: 250px;
+  max-width: 275px;
+}
 
-  p {
-    color:  #e23636;
-     text-align: center;
-  }
+p {
+  color: #e23636;
+  text-align: center;
+}
 
-  h5 {
-
-    background-color: #f78f3f;
-    text-align: center;
-    margin: auto;
-
-  }
-
+h5 {
+  background-color: #f78f3f;
+  text-align: center;
+  margin: auto;
+}
 
 img.boy {
-border: solid #518cca 5px;
+  border: solid #518cca 5px;
 }
 .girl {
   border: solid pink 5px;
-  }
-  // .namediv {
-  // color: #f78f3f;
-  // }
+}
