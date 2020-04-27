@@ -1,5 +1,5 @@
 
-import card from "../card/card";
+import card from '../card/card';
 
 
 const printArrayToCards = (arr) => {

@@ -1,7 +1,6 @@
 
 import '../styles/styles.scss';
 import button from './components/buttonevent';
-
 import build from './components/buttons';
 
 const init = () => {
