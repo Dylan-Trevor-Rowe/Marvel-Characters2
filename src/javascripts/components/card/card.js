@@ -1,11 +1,8 @@
-/* eslint-disable no-param-reassign */
-/* eslint-disable prefer-const */
 /* eslint-disable no-unused-vars */
-/* eslint-disable no-undef */
-/* eslint-disable no-plusplus */
+/* eslint-disable no-param-reassign */
+
 import print from "../helpers/utils";
 import "./card.scss";
-// eslint-disable-next-line no-unused-vars
 import characterData from "../helpers/data/characterData";
 
 

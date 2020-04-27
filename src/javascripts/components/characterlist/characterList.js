@@ -1,8 +1,5 @@
-/* eslint-disable arrow-body-style */
 
-// eslint-disable-next-line import/no-cycle
-import card from "../card/card";
-// import characterData from "../helpers/data/characterData";
+import card from '../card/card';
 
 
 const printArrayToCards = (arr) => {
