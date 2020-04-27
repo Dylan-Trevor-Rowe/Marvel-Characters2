@@ -3,7 +3,7 @@
  print cards from a different marvel group. It utilizes different advanced array methods to help filter the characters by Team, as well as changes the color of the image border to either pink if female or blue if male. If the characters did not have a decription dummy data was filterd in.
  # technologies
  Bootstrap, Javascript ES6, html, and Scss 
-![image](Marvel-Characters2/src/images/marvel Readme.png)
+![image](https://github.com/Dylan-Trevor-Rowe/Marvel-Characters2/blob/master/src/images/marvel%20Readme.png)
 # How to run
 clone down this repo
 make sure you have http-server installed via npm. if not get it here.
